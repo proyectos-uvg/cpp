@@ -1,0 +1,34 @@
+############################
+# C / C++ básicos
+############################
+
+# Archivos compilados
+*.o
+*.obj
+*.out
+*.exe
+*.app
+
+# Librerías generadas
+*.a
+*.lib
+*.so
+*.dll
+
+# Archivos temporales
+*~
+*.swp
+*.swo
+*.tmp
+
+# Carpetas de build
+build/
+bin/
+
+# CMake (si se usa)
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+
+# Debug
+*.pdb
